@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-component-xhlf
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:27b907d1d8fb4f039934d8351da0357d
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:401637cf687379431e49550f6f39adc8cab57562da9538cc2a2750199afa4ed5
         name: my-python
         ports:
         - containerPort: 8081
